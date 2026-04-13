@@ -78,7 +78,7 @@ Tools to simulate the "network-induced lossy compression" discussed in the paper
 
 ---
 
-## Installation & Usage
+### Installation & Usage
 
 Stimpack requires Python 3.10+ and uses **uv** for efficient dependency management.
 
@@ -115,7 +115,7 @@ uv run 0_model_train_rev.py
 
 ---
 
-## Citation
+### Citation
 ```bibtex
 @inproceedings{heo2026stimpack,
   title={Stimpack: An Adaptive Rendering Optimization System for Scalable Cloud Gaming},
@@ -125,12 +125,12 @@ uv run 0_model_train_rev.py
 }
 ```
 
-## License
+### License
 Licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🕹️ Fun Fact: Why the name "Stimpack"?
+### 🕹️ Fun Fact: Why the name "Stimpack"?
 
 The name **Stimpack** is a tribute to the iconic ability of the **Terran Marine** in Blizzard's *StarCraft* series.
 
