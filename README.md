@@ -13,8 +13,8 @@ Stimpack is the open-source implementation of the research paper **"Stimpack: An
 In cloud gaming, high-quality rendering often yields diminishing returns on user-perceived quality when delivered over bandwidth-constrained or lossy networks. Stimpack solves this by adaptively balancing server-side rendering costs against user-perceived quality, maximizing system utility in multi-user scenarios.
 
 <p align="center">
-  <img src="figs/stim1.png" height="300" alt="Multi-user Scalability Concept" />
-  &nbsp;&nbsp;&nbsp;&nbsp; <img src="figs/stim2.png" height="250" alt="Stimpack System Architecture" />
+  <img src="figs/stim1.png" height="250" alt="Multi-user Scalability Concept" />
+  &nbsp;&nbsp;&nbsp;&nbsp; <img src="figs/stim2.png" height="200" alt="Stimpack System Architecture" />
 </p>
 <p align="center">
   <em><b>Figure 1:</b> Strategic adaptation for multi-user scalability (Left) and the Stimpack System Architecture (Right).</em>
@@ -35,7 +35,6 @@ The following demos show a side-by-side comparison in a multi-user scenario. **S
 
 <p align="center">
   <img src="figs/game1.gif" height="180" alt="Game 1 Demo" />
-  &nbsp;&nbsp;
   <img src="figs/game2.gif" height="180" alt="Game 2 Demo" />
 </p>
 <p align="center">
