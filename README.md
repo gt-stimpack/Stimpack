@@ -43,33 +43,38 @@ The following demos show a side-by-side comparison in a multi-user scenario. **S
 
 ---
 
-## Core Components
+### System Architecture & Scope
+As described in the paper, Stimpack consists of two main components: the **In-game Plugin** and the **Central Runtime**.
 
-The project is structured into three primary modules:
+**This repository contains the official implementation of the Central Runtime and the Quality Prediction models.** It orchestrates the optimization process by communicating with game instances (plugins) to balance rendering costs and user-perceived quality.
 
-#### 1. `runtime/` - System Implementation
-The core execution engine of Stimpack. It manages the real-time feedback loop between the game engine and the network conditions.
+1. **Information Manager**: Handles user registration and real-time network/rendering telemetry.
+2. **Quality Predictor**: A pre-trained ML engine that estimates user-side VMAF.
+3. **RQ Optimizer**: A round-based controller that executes the efficiency-score-based optimization.
 
-##### Multi-threaded Architecture (via `runner.py`):
-- **`User_Registerer`**: Listens for new game sessions, negotiates ZeroMQ (ZMQ) IPC ports, and initializes user state.
-- **`User_QP_Updater`**: A router-based server that receives and updates network-induced compression (QP) levels.
-- **`RQ_Manager`**: The central controller that periodically adjusts rendering quality based on FPS and predicted VMAF.
-- **`FL_Monitor`**: (Spawned per user) Monitors real-time frame latency to ensure SLO compliance.
+---
 
-##### Network Simulation & Replay
-- **`replay_user_qp.py`**: Simulates dynamic network conditions by replaying pre-recorded QP traces from CSV files to the runtime.
-- **`update_user_qp.py`**: A client tool used to inject QP updates into the `User_QP_Updater`.
+### Core Components
 
-#### 2. `models/` - Quality Assessment & Prediction
-Contains the pipeline for quantifying user-perceived quality.
-- **VMAF Calculation**: Scripts to automate VMAF scoring using `easyvmaf` Docker containers across various scenes and configurations.
-- **ML Training**: Implementations of various regressors (Decision Tree, Random Forest, SVR, etc.) to predict VMAF from (Codec, RQ, QP) features.
-- **Dataset**: Pre-processed training/testing data and pre-trained models.
+The project is organized into three primary modules that correspond to the system's logic:
 
-#### 3. `net_data/` - Network Traces & Profiling
-Tools and data for simulating and analyzing network environments.
-- **Traces**: Real-world 3G and 4G network logs.
-- **Processing**: Scripts to convert raw network logs into structured CSVs, calculate moving averages of throughput (kbps), and generate QP traces corresponding to the network traces.
+#### 1. `runtime/` — The "Brain" (Central Runtime)
+The core execution engine that manages the real-time feedback loop.
+* **`runner.py`**: The main orchestrator that runs the multi-threaded optimization environment.
+* **`rq_manager.py`**: **[Paper §4.3]** Implements the round-based RQ optimization and efficiency scoring mechanism.
+* **`user_registerer.py`**: **[Paper §4.1]** Manages user sessions and ZeroMQ-based IPC ports for game instances.
+* **`fl_monitor.py`**: Monitors per-frame rendering latency to ensure SLO compliance.
+
+#### 2. `models/` — The "Eyes" (Quality Predictor)
+The pipeline for quantifying and predicting user-perceived quality.
+* **`pred_vmaf/`**: **[Paper §4.2]** Contains the pre-trained regression models (Random Forest, SVR, etc.) used to predict VMAF from (Codec, RQ, QP) features.
+* **`trained_models/`**: Ready-to-use `.pkl` model files for immediate deployment.
+* **VMAF Pipeline**: Scripts to automate quality scoring using Docker-based `easyvmaf`.
+
+#### 3. `net_data/` — The "Environment" (Network Traces)
+Tools to simulate the "network-induced lossy compression" discussed in the paper.
+* **Traces**: Real-world 3G and 4G network logs used for evaluation.
+* **QP Traces**: Tools to convert raw throughput logs into the dynamic QP (Quantization Parameter) profiles that Stimpack reacts to.
 
 ---
 
