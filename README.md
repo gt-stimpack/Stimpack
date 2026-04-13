@@ -44,13 +44,12 @@ The following demos show a side-by-side comparison in a multi-user scenario. **S
 ---
 
 ### System Architecture & Scope
-As described in the paper, Stimpack consists of two main components: the **In-game Plugin** and the **Central Runtime**.
+As described in the paper, Stimpack is designed as a distributed system consisting of two primary components: the **Central Runtime** and the **In-game Plugin**.
 
-**This repository contains the official implementation of the Central Runtime and the Quality Prediction models.** It orchestrates the optimization process by communicating with game instances (plugins) to balance rendering costs and user-perceived quality.
+* **Central Runtime (This Repository):** The official implementation of the "Brain" of Stimpack. It handles multi-user orchestration, VMAF quality prediction, and RQ optimization logic.
+* **[In-game Plugin & Game Environments](https://github.com/gt-stimpack/Stimpack-UE-Plugin):** The "Body" of Stimpack implemented in Unreal Engine 5. It manages real-time telemetry and applies the rendering quality changes decided by the runtime.
 
-1. **Information Manager**: Handles user registration and real-time network/rendering telemetry.
-2. **Quality Predictor**: A pre-trained ML engine that estimates user-side VMAF.
-3. **RQ Optimizer**: A round-based controller that executes the efficiency-score-based optimization.
+**Stimpack Runtime** orchestrates the optimization process by communicating with game instances via ZeroMQ-based IPC, balancing server-side rendering costs against user-perceived quality.
 
 ---
 
@@ -92,7 +91,8 @@ uv sync
 ```
 
 #### 1. Running the Stimpack Runtime
-Start the main quality manager to listen for users and manage rendering:
+Start the main quality manager. It will wait for incoming connections from game instances with Stimpack plugins.
+> **End-to-End Testing:** To test Stimpack with real game environments, you need to run the game instances of [Stimpack Unreal Engine Plugin](https://github.com/gt-stimpack/Stimpack-UE-Plugin) along with this runtime. By default, they communicate over `localhost:10000`.
 
 ```bash
 uv run runtime/runner.py [log_file] [case_name]
