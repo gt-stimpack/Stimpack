@@ -1,0 +1,17 @@
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2010-09-28_1407CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2010-09-29_0852CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2010-09-29_1622CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2010-09-29_1628CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2010-09-29_1823CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2010-09-29_1827CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2010-09-30_1058CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2010-09-30_1113CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2010-09-30_1114CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2010-09-30_1133CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2010-11-10_1424CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2010-11-10_1726CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2011-01-29_1125CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2011-01-29_1423CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2011-01-29_1827CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2011-01-30_1323CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/bus.ljansbakken-oslo/report.2011-01-31_1025CET.log

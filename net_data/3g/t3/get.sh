@@ -1,0 +1,15 @@
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2010-11-23_1541CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2010-12-09_1244CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2010-12-09_1334CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2010-12-16_1125CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2010-12-16_1215CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2010-12-21_1134CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2010-12-21_1225CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2010-12-22_0800CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2010-12-22_0849CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2011-01-04_0820CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2011-01-05_0819CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2011-01-06_0814CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2011-01-31_1045CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2011-01-31_2032CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/tram.ljabru-jernbanetorget/report.2011-02-02_1345CET.log

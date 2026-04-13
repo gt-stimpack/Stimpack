@@ -1,0 +1,17 @@
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-09-13_1003CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-09-13_1046CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-09-14_1038CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-09-14_1415CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-09-14_2303CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-09-21_0742CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-09-22_0857CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-09-27_0942CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-10-18_0951CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-10-22_1458CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-11-04_0957CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-11-11_1012CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2010-11-16_1857CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2011-01-31_1935CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2011-01-31_2356CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2011-02-01_1800CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/metro.kalbakken-jernbanetorget/report.2011-02-02_1251CET.log

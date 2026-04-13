@@ -1,0 +1,16 @@
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2010-09-20_1542CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2010-09-21_1001CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2010-09-21_1622CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2010-09-21_1735CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2010-09-22_0702CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2010-09-23_1001CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2010-09-28_1003CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2010-09-29_0702CEST.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2011-01-29_1800CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2011-01-31_1830CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2011-02-01_0629CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2011-02-01_0740CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2011-02-01_0840CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2011-02-01_1000CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2011-02-01_1539CET.log
+wget https://skulddata.cs.umass.edu/traces/mmsys/2013/pathbandwidth/ferry.nesoddtangen-oslo/report.2011-02-01_1639CET.log
