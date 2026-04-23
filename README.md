@@ -83,7 +83,7 @@ Stimpack requires Python 3.10+ and uses **uv** for efficient dependency manageme
 
 ```bash
 # Clone the repository
-git clone https://github.com/jin-heo/Stimpack.git
+git clone https://github.com/gt-stimpack/Stimpack.git
 cd Stimpack
 
 # Install dependencies using uv
