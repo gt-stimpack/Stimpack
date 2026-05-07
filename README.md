@@ -1,8 +1,7 @@
 # Stimpack: An Adaptive Rendering Optimization System for Scalable Cloud Gaming
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/pdf/2412.19446.pdf)
-[![DOI](https://zenodo.org/badge/DOI/10.xxxx/xxxx.svg)](https://doi.org/10.xxxx/xxxx)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://www.usenix.org/system/files/nsdi26-heo.pdf)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![Built with uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)](https://www.linux.org/)
