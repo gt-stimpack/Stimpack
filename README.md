@@ -117,11 +117,17 @@ uv run 0_model_train_rev.py
 
 ### Citation
 ```bibtex
-@inproceedings{heo2026stimpack,
-  title={Stimpack: An Adaptive Rendering Optimization System for Scalable Cloud Gaming},
-  author={Heo, Jin and Wang, Vic and Bhardwaj, Ketan and Gavrilovska, Ada},
-  booktitle={23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},
-  year={2026}
+@inproceedings {316628,
+	author = {Jin Heo and Vic Wang and Ketan Bhardwaj and Ada Gavrilovska},
+	title = {Stimpack: An Adaptive Rendering Optimization System for Scalable Cloud Gaming},
+	booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},
+	year = {2026},
+	isbn = {978-1-939133-54-0},
+	address = {Renton, WA},
+	pages = {397--414},
+	url = {https://www.usenix.org/conference/nsdi26/presentation/heo},
+	publisher = {USENIX Association},
+	month = may
 }
 ```
 
